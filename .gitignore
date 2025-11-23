@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment (root level)
+venv/
+env/
+ENV/
+
+# Node.js (frontend)
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data and cache
+data/user_state.json
+data/vector_store/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+server.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# ML Models and large files
+*.pkl
+*.h5
+*.model
+*.bin
+*.pt
+*.pth
+*.onnx
+final_trained_cycle_model.pkl
+
+# Large datasets (keep only sample data)
+realistic_menstrual_cycle_dataset.csv
+training_summary.json
+
+# Scraped content (generated)
+app/knowledge/scraped_resources.json
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# SHAP outputs
+shap_summary.png

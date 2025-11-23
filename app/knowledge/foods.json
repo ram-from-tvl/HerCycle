@@ -1,0 +1,36 @@
+{
+  "foods": {
+    "iron_rich": {
+      "vegetarian": ["spinach", "dal", "rajma", "chickpeas", "dates", "jaggery", "beetroot"],
+      "non_veg": ["chicken", "fish", "eggs", "mutton"],
+      "benefits": "Replenishes iron lost during menstruation"
+    },
+    "anti_inflammatory": {
+      "all": ["turmeric", "ginger", "green tea", "berries", "dark chocolate", "walnuts"],
+      "benefits": "Reduces cramps and inflammation"
+    },
+    "hydrating": {
+      "all": ["coconut water", "cucumber", "watermelon", "lemon water", "buttermilk"],
+      "benefits": "Reduces bloating and headaches"
+    },
+    "magnesium_rich": {
+      "all": ["bananas", "almonds", "pumpkin seeds", "dark chocolate", "avocado"],
+      "benefits": "Reduces mood swings and cramps"
+    },
+    "avoid": {
+      "all": ["excessive caffeine", "very spicy food", "processed snacks", "excessive salt"],
+      "reason": "Can worsen cramps, bloating, and mood"
+    }
+  },
+  "regional": {
+    "north_india": ["dal", "paneer", "spinach", "seasonal fruits", "buttermilk"],
+    "south_india": ["sambar", "rasam", "curd rice", "coconut water", "drumstick"],
+    "west_india": ["daliya", "moong dal", "bajra roti", "fresh fruits"],
+    "east_india": ["fish curry", "dal", "seasonal vegetables", "rice"]
+  },
+  "budget": {
+    "low": ["dal", "eggs", "seasonal vegetables", "bananas", "jaggery"],
+    "medium": ["chicken", "paneer", "mixed nuts", "berries", "dark chocolate"],
+    "high": ["salmon", "avocado", "imported fruits", "organic produce"]
+  }
+}

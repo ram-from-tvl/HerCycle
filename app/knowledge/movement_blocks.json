@@ -1,0 +1,101 @@
+{
+  "movement_blocks": {
+    "low_intensity": {
+      "room": [
+        {
+          "name": "Gentle Stretching",
+          "duration": "5-10 min",
+          "moves": ["Cat-cow stretch", "Child's pose", "Seated forward fold", "Gentle twists"],
+          "benefits": "Relieves cramps and lower back pain"
+        },
+        {
+          "name": "Breathing & Meditation",
+          "duration": "5-10 min",
+          "moves": ["Deep belly breathing", "Alternate nostril breathing", "Body scan"],
+          "benefits": "Reduces stress and pain perception"
+        }
+      ],
+      "hostel_ground": [
+        {
+          "name": "Slow Walking",
+          "duration": "10-15 min",
+          "moves": ["Mindful walking", "Light strolling"],
+          "benefits": "Improves circulation without strain"
+        }
+      ],
+      "gym": [
+        {
+          "name": "Light Yoga",
+          "duration": "15-20 min",
+          "moves": ["Yin yoga", "Restorative poses", "Gentle flow"],
+          "benefits": "Flexibility and pain relief"
+        }
+      ]
+    },
+    "moderate_intensity": {
+      "room": [
+        {
+          "name": "Pilates Core",
+          "duration": "15-20 min",
+          "moves": ["Pelvic tilts", "Dead bug", "Bird dog", "Bridge pose"],
+          "benefits": "Strengthens core, reduces bloating"
+        }
+      ],
+      "hostel_ground": [
+        {
+          "name": "Brisk Walking",
+          "duration": "20-30 min",
+          "moves": ["Power walking", "Interval walking"],
+          "benefits": "Boosts mood and energy"
+        }
+      ],
+      "gym": [
+        {
+          "name": "Light Cardio",
+          "duration": "20-30 min",
+          "moves": ["Elliptical", "Cycling", "Swimming"],
+          "benefits": "Releases endorphins, reduces cramps"
+        }
+      ]
+    },
+    "high_intensity": {
+      "room": [
+        {
+          "name": "Bodyweight Circuit",
+          "duration": "15-20 min",
+          "moves": ["Squats", "Push-ups", "Lunges", "Planks"],
+          "benefits": "Maintains fitness during period"
+        }
+      ],
+      "hostel_ground": [
+        {
+          "name": "Jogging",
+          "duration": "20-30 min",
+          "moves": ["Light jogging", "Sprint intervals"],
+          "benefits": "High energy release"
+        }
+      ],
+      "gym": [
+        {
+          "name": "Full Workout",
+          "duration": "30-45 min",
+          "moves": ["Weight training", "HIIT", "Dance cardio"],
+          "benefits": "Normal training schedule"
+        }
+      ]
+    }
+  },
+  "contraindications": {
+    "avoid_if": [
+      "Severe cramps (pain level > 7/10)",
+      "Heavy bleeding with dizziness",
+      "Diagnosed endometriosis flare-up",
+      "Doctor advised rest"
+    ],
+    "modifications": {
+      "high_pain": "Stick to breathing and gentle stretching only",
+      "fatigue": "Reduce duration by 50%, focus on restorative moves",
+      "heavy_flow": "Avoid inversions and high-impact moves"
+    }
+  }
+}

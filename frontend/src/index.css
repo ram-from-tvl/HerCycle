@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Main Backgrounds */
+    --background: 270 50% 98%;
+    --foreground: 270 20% 25%;
+
+    /* Cards with glassmorphism */
+    --card: 0 0% 100%;
+    --card-foreground: 270 20% 25%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 270 20% 25%;
+
+    /* Primary - Soft Violet */
+    --primary: 260 35% 70%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 260 50% 85%;
+
+    /* Secondary - Gentle Purple */
+    --secondary: 265 30% 65%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted - Cloud tones */
+    --muted: 270 30% 95%;
+    --muted-foreground: 270 10% 50%;
+
+    /* Accent - Deep Plum */
+    --accent: 270 25% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 270 20% 90%;
+    --input: 270 20% 90%;
+    --ring: 260 35% 70%;
+
+    /* Radius */
+    --radius: 1.5rem;
+
+    /* Phase Colors */
+    --phase-menstrual: 355 100% 95%;
+    --phase-follicular: 50 100% 95%;
+    --phase-ovulation: 150 100% 95%;
+    --phase-luteal: 220 100% 95%;
+
+    /* Section Colors */
+    --nutrition-bg: 25 100% 95%;
+    --movement-bg: 140 40% 92%;
+    --emotional-bg: 210 50% 95%;
+    --cycle-bg: 340 60% 95%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(260 35% 70%), hsl(260 50% 85%));
+    --gradient-hero: linear-gradient(180deg, hsl(270 50% 98%), hsl(260 50% 95%));
+    --gradient-card: linear-gradient(135deg, hsla(0, 0%, 100%, 0.9), hsla(260, 50%, 98%, 0.8));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(260 35% 70% / 0.15);
+    --shadow-glow: 0 0 40px hsl(260 50% 85% / 0.4);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 270 30% 12%;
+    --foreground: 270 20% 95%;
+
+    --card: 270 25% 15%;
+    --card-foreground: 270 20% 95%;
+
+    --popover: 270 25% 15%;
+    --popover-foreground: 270 20% 95%;
+
+    --primary: 260 40% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 265 25% 25%;
+    --secondary-foreground: 270 20% 95%;
+
+    --muted: 270 20% 20%;
+    --muted-foreground: 270 10% 60%;
+
+    --accent: 270 30% 30%;
+    --accent-foreground: 270 20% 95%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 270 20% 25%;
+    --input: 270 20% 25%;
+    --ring: 260 40% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

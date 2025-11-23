@@ -1,0 +1,85 @@
+{
+  "products": {
+    "pads": {
+      "reusable_cloth": {
+        "cost_per_unit": 50,
+        "lifespan_months": 24,
+        "monthly_need": 12,
+        "total_cost_per_year": 25,
+        "environmental_impact": "Very low - biodegradable",
+        "comfort": "High after initial adjustment"
+      },
+      "reusable_bamboo": {
+        "cost_per_unit": 150,
+        "lifespan_months": 36,
+        "monthly_need": 10,
+        "total_cost_per_year": 42,
+        "environmental_impact": "Very low - biodegradable",
+        "comfort": "Very high"
+      },
+      "disposable_regular": {
+        "cost_per_pack": 50,
+        "pads_per_pack": 8,
+        "monthly_need": 15,
+        "total_cost_per_year": 450,
+        "environmental_impact": "High - plastic, takes 500-800 years to decompose",
+        "comfort": "Medium"
+      },
+      "disposable_organic": {
+        "cost_per_pack": 120,
+        "pads_per_pack": 10,
+        "monthly_need": 15,
+        "total_cost_per_year": 216,
+        "environmental_impact": "Medium - biodegradable but resource-intensive",
+        "comfort": "High"
+      }
+    },
+    "menstrual_cups": {
+      "silicone": {
+        "cost_per_unit": 400,
+        "lifespan_years": 5,
+        "total_cost_per_year": 80,
+        "environmental_impact": "Very low - reusable, minimal waste",
+        "comfort": "High after learning curve",
+        "learning_curve": "2-3 cycles"
+      }
+    },
+    "period_underwear": {
+      "reusable": {
+        "cost_per_unit": 800,
+        "lifespan_years": 2,
+        "monthly_need": 5,
+        "total_cost_per_year": 200,
+        "environmental_impact": "Low - reusable",
+        "comfort": "Very high"
+      }
+    }
+  },
+  "recommendations": {
+    "budget_low": {
+      "best_choice": "reusable_cloth_pads",
+      "reasoning": "Lowest annual cost (₹25-50/year), easily washable, eco-friendly",
+      "tips": "Start with 6-8 cloth pads, wash daily with mild soap"
+    },
+    "budget_medium": {
+      "best_choice": "menstrual_cup",
+      "reasoning": "One-time investment of ₹400, lasts 5 years, eco-friendly",
+      "tips": "Consider bamboo pads as backup during learning phase"
+    },
+    "budget_high": {
+      "best_choice": "combination_cup_and_period_underwear",
+      "reasoning": "Maximum comfort and flexibility",
+      "tips": "Use cup during day, period underwear at night"
+    },
+    "eco_conscious": {
+      "best_choice": "menstrual_cup_or_cloth_pads",
+      "reasoning": "Minimal environmental impact, supports sustainability",
+      "impact": "Saves ~10kg of plastic waste per person per year"
+    }
+  },
+  "disposal_tips": {
+    "disposable_pads": "Wrap in newspaper, dispose in sanitary bin. Never flush.",
+    "cloth_pads": "Rinse in cold water, wash with mild soap, sun dry",
+    "menstrual_cup": "Empty, rinse, reinsert. Sterilize between cycles."
+  }
+}
