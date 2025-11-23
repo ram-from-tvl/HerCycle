@@ -7,6 +7,7 @@ HerCycle is your holistic wellness companion for menstrual cycle tracking with A
 <img width="1920" height="1080" alt="hercycle2" src="https://github.com/user-attachments/assets/97617d9f-bc2d-4d99-a5d7-d023394690ca" />
 
 <img width="1920" height="1080" alt="hercycle3" src="https://github.com/user-attachments/assets/9d5cb754-f089-4a49-bd10-59df77196cc2" />
+
 ## Setup & Run
 
 ### Backend Setup
