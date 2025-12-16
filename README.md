@@ -1,6 +1,6 @@
-# HerCycle - Your Gentle Wellness Companion
+# HerCycle - Your Menstrual Wellness Companion
 
-HerCycle is your holistic wellness companion for menstrual cycle tracking with AI-powered personalized plans for nutrition, movement, and emotional support.
+HerCycle is your holistic menstrual wellness companion for menstrual cycle tracking with AI-powered personalized plans for nutrition, movement, and emotional support.
 
 ## Screenshots
 
